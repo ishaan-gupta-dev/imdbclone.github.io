@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/148dfc10a8.js" crossorigin="anonymous"></script>
+  <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/index.css">
+  <title>IMDb clone</title>
+</head>
+
+<body>
+  <nav>
+    <h1>IMDb</h1>
+    <div id="search-box-container">
+      <form id="search-box-form" autocomplete="off">
+        <input type="text" id="search-box-input" placeholder="Search IMDb" autocomplete="off">
+      </form>
+    </div>
+  </nav>
+  <div id="wrapper">
+    <div id="movies-container">
+      <div id="empty-movies-div">
+        <p class="muted-text"> Search for Movies!</p>
+      </div>
+      <div id="movie-card-container">
+        <!--         
+          <div class="movie-card">
+          <a href="movie.html">
+            <img src="https://m.media-amazon.com/images/M/MV5BMzA0YWMwMTUtMTVhNC00NjRkLWE2ZTgtOWEzNjJhYzNiMTlkXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg" data-id="${movie.imdbID}" />
+          </a>
+          <div class="movie-card-details">
+            <p>⭐7.4</p>
+            <button class="fav-btn"> <i class="fa-solid fa-bookmark" data-id="${movie.imdbID}"></i></button>
+          </div>
+          <a>
+            <h1 data-id="${movie.imdbID}"> Superman </h1>
+          </a>
+        </div> 
+      -->
+
+      </div>
+    </div>
+
+    <div id="fav-container">
+      <h1> Favourites</h1>
+      <div id="empty-fav-movies-div">
+        <p class="muted-text"> Click on <i class="fa-solid fa-bookmark"></i> to add to Favoutites! </p>
+      </div>
+      <div id="fav-movies-container">
+        <!-- 
+        <div class="fav-movie-card">
+          <img src="https://m.media-amazon.com/images/M/MV5BMzA0YWMwMTUtMTVhNC00NjRkLWE2ZTgtOWEzNjJhYzNiMTlkXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg" data-id="${movie.imdbID}" />
+          <div class="fav-movie-card-details">
+            <p>⭐7.4</p>
+            <h3><a href="movie.html" data-id="${movie.imdbID}"> Superman </a></h3>
+            <small> 1978 </small>
+          </div>
+          <div class="del-btn-container">
+            <button class="del-btn" data-id="${movie.imdbID}"> <i class="fa-solid fa-circle-xmark fa-2x" data-id="${movie.imdbID}"></i> </button>
+          </div>
+        </div> 
+      -->
+
+
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>

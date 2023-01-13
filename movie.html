@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IMDb clone</title>
+  <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon" />
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/148dfc10a8.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="assets/css/movie.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav id="navbar-container">
+    <div id="navbar-div">
+      <a href="index.html">
+        <button type="button">
+          <i class="fa-solid fa-angle-left"></i> Go Back
+        </button>
+      </a>
+      <h1>IMDb</h1>
+    </div>
+  </nav>
+
+  <!-- MAIN container -->
+  <main id="main-container">
+    <!-- Title and rating container -->
+    <div id="title-container" style="max-width: 70vw">
+      <div>
+        <h1 id="title">Movie name</h1>
+        <p id="year">----</p>
+        <span id="runtime"> -- min</span>
+      </div>
+
+      <div>
+        <h6 id="rating-heading">IMDB RATING</h6>
+        <h5 id="star">
+          ⭐<span id="rating"></span>
+        </h5>
+      </div>
+    </div>
+
+    <!-- Movie card -->
+    <div id="movie-card-container" style="max-width: 70vw">
+      <div id="movie-card">
+        <div id="movie-card-image-container">
+          <img id="poster" style="max-height: 400px" />
+        </div>
+        <div id="movie-card-text-container">
+          <div id="movie-card-text-div">
+            <p id="genre-container" class="info-type">
+              <!-- <span id="genre" class="information">_ _ _</span> -->
+            </p>
+            <p class="card-text" id="plot">_ _ _</p>
+
+            <p class="info-type">
+              Directors :
+              <span id="director-names" class="information">_ _ _</span>
+            </p>
+            <p class="info-type">
+              Writers :
+              <span id="writers-names" class="information">_ _ _</span>
+            </p>
+            <p class="info-type">
+              Stars :
+              <span id="cast-names" class="information">_ _ _</span>
+            </p>
+            <p class="info-type">
+              Awards :
+              <span id="awards" class="information">_ _ _</span>
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/js/movie.js"></script>
+</body>
+
+</html>
