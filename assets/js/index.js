@@ -197,7 +197,7 @@
         addToFavMoviesContainer();
     }
 
-    // handle aal the click of app
+    // handle all the clicks of app
     async function clickHandler(e) {
         if (e.target.classList.contains("fa-bookmark")) {
             e.preventDefault();

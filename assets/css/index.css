@@ -100,6 +100,10 @@ nav h1 {
   color: #f4c518;
 }
 
+.fav-btn .solid-yellow {
+  cursor: not-allowed;
+}
+
 /* fav section */
 #fav-container {
   display: flex;
@@ -187,16 +191,15 @@ nav h1 {
 .fa-circle-xmark {
   color: red;
 }
-.muted-text{
+.muted-text {
   font-size: 2.5rem;
   color: #6c757d;
   opacity: 0.5;
 }
-#empty-fav-movies-div{
+#empty-fav-movies-div {
   margin-top: 30%;
 }
-#empty-fav-movies-div p{
+#empty-fav-movies-div p {
   text-align: center;
   font-size: 2rem;
 }
-
