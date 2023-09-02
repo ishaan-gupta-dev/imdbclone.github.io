@@ -22,7 +22,7 @@ An IMDb clone app created using HTML, CSS and vanilla javascript
 
 Hosted on
 
-https://ishaan-gupta-developer.github.io/imdbclone.github.io/
+https://ishaan-gupta-dev.github.io/imdbclone.github.io/
 
 ## API Reference
 
